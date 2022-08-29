@@ -20,7 +20,7 @@ while(invalid){
        
         invalid = false
        
-    }else if(userInput < menu.length && userInput > 0){
+    }else if(userInput < menu.length && userInput >= 0){
         totalPrice += menu[userInput].Price;
         order += menu[userInput].Dish
     }else{
@@ -37,6 +37,7 @@ fs.writeFile('./data.txt',
   console.log('Successfully saved');
 })
 console.log(order);
-console.log(totalPrice);
+numb = totalPrice.toFixed(2);
+console.log(numb);
 
 
