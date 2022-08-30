@@ -1,4 +1,4 @@
-# nodejs
+# NodeJS
 Menu in node.js
 In dit progamma kan je een bestelling maken van een aantal producten. Je kan meerdere bestellingen orders plaatsen met behulp van de toetsen en de aanwijzigen die je op het scherm ziet. aan het eind van de progamma word er een bon uitgeprint en opgeslagen in een text file.
 
