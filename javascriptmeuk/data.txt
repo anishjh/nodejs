@@ -2,16 +2,5 @@ Name: Bon
 
 Order:
 
-Smoked Salmon
-Carrot Soup
-Chicken Balerno
-Roast Beef
-Pizza Americana
-Chocolate gateau
-Chocolate Cake
-Coffee and Mints
-Margarita lemon
-Cosmopolitan
-Moscow Mule
 
-Totalprice: €69.33
+Totalprice: €0.00
