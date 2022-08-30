@@ -11,7 +11,10 @@ let name = 'Bon';
 
 
 while(invalid){
-    console.log(menu);
+    //console.log(menu);
+    Object.entries(menu).forEach(([id, Dish, Price]) => {
+        console.log(`ID: ${Dish.id} - ${Dish.Dish} - €${Dish.Price}`);
+    });
  
 
 
@@ -22,7 +25,7 @@ while(invalid){
        
     }else if(userInput < menu.length && userInput >= 0){
         totalPrice += menu[userInput].Price;
-        order += menu[userInput].Dish
+        order += menu[userInput].Dish + "\n"
     }else{
         console.log("This is not a valid input.");
     }
@@ -32,7 +35,7 @@ while(invalid){
 }
 
 fs.writeFile('./data.txt',
-   `Name: ${name}\nOrder: ${order}\nTotalprice: ${totalPrice }`
+   `Name: ${name}\nOrder: ${order}\nTotalprice: €${totalPrice }`
 ,()=>{
   console.log('Successfully saved');
 })
