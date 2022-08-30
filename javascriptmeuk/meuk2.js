@@ -36,7 +36,7 @@ while(invalid){
 numb = totalPrice.toFixed(2);
 
 fs.writeFile('./data.txt',
-   `Name: ${name}\nOrder:\n ${order}\nTotalprice: €${numb }`
+   `Name: ${name}\n\nOrder:\n\n${order}\nTotalprice: €${numb }`
 ,()=>{
   console.log('Successfully saved');
 })
