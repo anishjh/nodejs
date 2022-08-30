@@ -3,7 +3,7 @@ Menu in node.js
 In dit progamma kan je een bestelling maken van een aantal producten. Je kan meerdere bestellingen orders plaatsen met behulp van de toetsen en de aanwijzigen die je op het scherm ziet. aan het eind van de progamma word er een bon uitgeprint en opgeslagen in een text file.
 
 ## Installeren
-Om dit progamma te runnen is het instaleren van [node js](https://nodejs.org/en/) vereist.
+Om dit progamma te runnen is het instaleren van [NodeJS](https://nodejs.org/en/) vereist.
 
 ## Na het instaleren moet er nog een package geinstaleerd worden voor het gebruik van de programma
 Dat doe je door naar je terminal te gaan in visual studio en deze command in te voeren:
