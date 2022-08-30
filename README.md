@@ -14,4 +14,7 @@ npm install prompt-sync
 ```
 node meuk2.js
 ```
-er verschijnt een menu op het scherm en je kan je keuze maken met het id.
+Er verschijnt een menu op het scherm en je kan je keuze maken met het id.
+Als je klaar bent met bestellen druk je op de n toets en word het progamma beeindigd.
+Je ziet dan in je console wat je allemaal hebt bestelt met een totale prijs.
+Je kan je bon terug vinden in het mapje van het progamma.
