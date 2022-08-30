@@ -1,9 +1,15 @@
 Name: Bon
-Order: Carrot Soup
+Order:
+ Smoked Salmon
+Carrot Soup
 Chicken Balerno
-Carrot Soup
-Carrot Soup
-Carrot Soup
-Carrot Soup
+Roast Beef
+Pizza Americana
+Chocolate gateau
+Chocolate Cake
+Coffee and Mints
+Margarita lemon
+Cosmopolitan
+Moscow Mule
 
-Totalprice: 27.1
+Totalprice: €69.33
